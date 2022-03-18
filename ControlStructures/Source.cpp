@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 //#define TEMPERATURE
@@ -8,28 +8,28 @@ void main()
 	setlocale(LC_ALL, "Russian");
 #ifdef TEMPERATURE
 	int t; 
-	cout << "Ââåäèòå òåìïåðàòóðó âîçäóõà:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐ¼Ð¿ÐµÑ€Ð°Ñ‚ÑƒÑ€Ñƒ Ð²Ð¾Ð·Ð´ÑƒÑ…Ð°:";
 	cin >> t;
 	if (t > 0)
 	{
-		cout << "Íà óëèöå òåïëî" << endl;
+		cout << "ÐÐ° ÑƒÐ»Ð¸Ñ†Ðµ Ñ‚ÐµÐ¿Ð»Ð¾" << endl;
 	}
 	else
 	{
-		cout << "Íà óëèöå õîëîäíî" << endl;
+		cout << "ÐÐ° ÑƒÐ»Ð¸Ñ†Ðµ Ñ…Ð¾Ð»Ð¾Ð´Ð½Ð¾" << endl;
 	}
 #endif
 
 
 	int n;
-	cout << "Ââåäèòå ÷èñëî:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾:"; cin >> n;
 	if (n > 0 && n < 10)
 	{
-		cout << "Âû ïîïàëè" << endl;
+		cout << "Ð’Ñ‹ Ð¿Ð¾Ð¿Ð°Ð»Ð¸" << endl;
 	}
 	else
 	{
-		cout << "Âû ïðîìàõíóëèñü" << endl;
+		cout << "Ð’Ñ‹ Ð¿Ñ€Ð¾Ð¼Ð°Ñ…Ð½ÑƒÐ»Ð¸ÑÑŒ" << endl;
 	}
 
 
